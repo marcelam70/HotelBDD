@@ -1,0 +1,360 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "I am on Hotels Home Page",
+            "match": {
+              "location": "HotelsPageSD.verified()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify user can only view the result by selected property class",
+        "description": "",
+        "id": "hotels-feature;verify-user-can-only-view-the-result-by-selected-property-class;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I am on default locations search result screen",
+            "match": {
+              "location": "HotelsPageSD.hotelsMainPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I select 5 stars on the hotels page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5 stars",
+                  "offset": 9
+                }
+              ],
+              "location": "HotelsPageSD.chooseStars(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I verify system displays only 5 stars hotels on search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5 stars",
+                  "offset": 30
+                }
+              ],
+              "location": "HotelsPageSD.verifyStarsIsSelected(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@web"
+          },
+          {
+            "line": 6,
+            "name": "@hotels-1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "I am on Hotels Home Page",
+            "match": {
+              "location": "HotelsPageSD.verified()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verify user can only view the result by selected property class",
+        "description": "",
+        "id": "hotels-feature;verify-user-can-only-view-the-result-by-selected-property-class;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I am on default locations search result screen",
+            "match": {
+              "location": "HotelsPageSD.hotelsMainPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I select 4 stars on the hotels page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4 stars",
+                  "offset": 9
+                }
+              ],
+              "location": "HotelsPageSD.chooseStars(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I verify system displays only 4 stars hotels on search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4 stars",
+                  "offset": 30
+                }
+              ],
+              "location": "HotelsPageSD.verifyStarsIsSelected(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@web"
+          },
+          {
+            "line": 6,
+            "name": "@hotels-1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "I am on Hotels Home Page",
+            "match": {
+              "location": "HotelsPageSD.verified()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify user can only view the result by selected property class",
+        "description": "",
+        "id": "hotels-feature;verify-user-can-only-view-the-result-by-selected-property-class;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I am on default locations search result screen",
+            "match": {
+              "location": "HotelsPageSD.hotelsMainPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I select 3 stars on the hotels page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3 stars",
+                  "offset": 9
+                }
+              ],
+              "location": "HotelsPageSD.chooseStars(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I verify system displays only 3 stars hotels on search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3 stars",
+                  "offset": 30
+                }
+              ],
+              "location": "HotelsPageSD.verifyStarsIsSelected(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@web"
+          },
+          {
+            "line": 6,
+            "name": "@hotels-1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "I am on Hotels Home Page",
+            "match": {
+              "location": "HotelsPageSD.verified()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "List of all of hotel within 10 miles radius of airport or downtown",
+        "description": "",
+        "id": "hotels-feature;list-of-all-of-hotel-within-10-miles-radius-of-airport-or-downtown",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I am on default locations search result screen",
+            "match": {
+              "location": "HotelsPageSD.hotelsMainPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I verify system displays all hotels within 10 miles radius of airport",
+            "match": {
+              "location": "HotelHiltonSD.hotelsWithin10MilestoAirport()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I verify Hilton Hotel is within 10 miles radius of downtown",
+            "match": {
+              "location": "HotelHiltonSD.hotelsWithin10MilestoDownTown()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@hotels-2"
+          }
+        ]
+      }
+    ],
+    "name": "Hotels feature",
+    "description": "",
+    "id": "hotels-feature",
+    "keyword": "Feature",
+    "uri": "HotelsPage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@web"
+      }
+    ]
+  }
+]
